@@ -1,0 +1,12 @@
+.hotshot {
+    color: red;
+    font-size: 30px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: burlywood;
+}
+
+#main {
+    color: peachpuff;
+    font-size: 22px;
+}
