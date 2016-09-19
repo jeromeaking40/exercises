@@ -1,0 +1,38 @@
+/* ADD YOUR STYLES HERE */
+td {
+    padding: 20px;
+    border-bottom: solid;
+}
+
+thead {
+    text-align: center;
+}
+
+.instruction-text {
+    border-bottom: solid;
+    padding: 14px;
+}
+
+.backgroundBar {
+    background-color: #4169E1;
+}
+
+.percentage {
+ width: 100%;
+ border-radius: 0 5 5 0px
+ 
+}
+
+.instruction-answer2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;   
+}
+
+.mediaBlock {
+    float: left;
+    padding: 10px;
+}
