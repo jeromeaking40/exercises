@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Intro to Angular</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    </head>
+    <body ng-controller="mainCtrl">
+        <h1>This week we go over Angular</h1>
+        <!--When a paragraph is moused over, turn the text of that paragraph pink.-->
+        <p ng-class="{pink: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
+          Today we go over basic directives in Angular</p>
+          <div id="url">
+          <a ng-click="confirmUrl()" href="http://www.angularjs.org">Angular JS Documentation</a>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
